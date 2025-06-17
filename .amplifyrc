@@ -1,0 +1,13 @@
+{
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "client/src",
+      "DistributionDir": "client/build",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm start"
+    }
+  },
+  "providers": ["awscloudformation"]
+}

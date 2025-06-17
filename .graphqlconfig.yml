@@ -1,0 +1,17 @@
+projects:
+  default:
+    schemaPath: amplify/backend/api/emojibattle/build/schema.graphql
+    includes:
+      - client/src/graphql/**/*.ts
+    excludes:
+      - node_modules/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: client/src/API.ts
+        docsFilePath: client/src/graphql
+        maxDepth: 2
+        importBasePath: client/src
+extensions:
+  amplify:
+    version: 3
